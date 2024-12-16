@@ -1,4 +1,7 @@
 #home-nav-bar {
+    .d-flex {
+        justify-content: space-between;
+    }
     ul,li, li>button {
         height: 100%;
         color: darkgray;
@@ -15,4 +18,8 @@
             outline: none;
         }
     }
+}
+
+.nav-router-outlet {
+    background: rgb(14 18 39);
 }
