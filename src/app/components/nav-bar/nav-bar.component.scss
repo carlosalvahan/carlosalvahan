@@ -1,0 +1,18 @@
+#home-nav-bar {
+    ul,li, li>button {
+        height: 100%;
+        color: darkgray;
+        border: none;
+        outline:none;
+        &:hover {
+            border: none;
+            outline:none;
+        }
+        &.active {
+            color: white;
+            background: none;
+            border:none;
+            outline: none;
+        }
+    }
+}
